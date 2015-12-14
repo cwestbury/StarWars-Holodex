@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3AAC971BD0112D004D11E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AAC961BD0112D004D11E1 /* main.m */; };
+		7E3AAC9A1BD0112D004D11E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AAC991BD0112D004D11E1 /* AppDelegate.m */; };
+		7E3AAC9D1BD0112D004D11E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AAC9C1BD0112D004D11E1 /* ViewController.m */; };
+		7E3AACA01BD0112D004D11E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAC9E1BD0112D004D11E1 /* Main.storyboard */; };
+		7E3AACA21BD0112D004D11E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AACA11BD0112D004D11E1 /* Assets.xcassets */; };
+		7E3AACA51BD0112D004D11E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AACA31BD0112D004D11E1 /* LaunchScreen.storyboard */; };
+		7E3AACAE1BD01CB5004D11E1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AACAD1BD01CB5004D11E1 /* Reachability.m */; };
+		7E3AACB41BD02A8E004D11E1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AACB31BD02A8E004D11E1 /* DetailViewController.m */; };
+		7E3AACBF1BD04960004D11E1 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3AACBE1BD04960004D11E1 /* SafariServices.framework */; };
+		7E3AAD721BD16014004D11E1 /* 1187115.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD631BD16014004D11E1 /* 1187115.png */; };
+		7E3AAD731BD16014004D11E1 /* b8d19ca6bef404133378912bab9acf4a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD641BD16014004D11E1 /* b8d19ca6bef404133378912bab9acf4a.jpg */; };
+		7E3AAD741BD16014004D11E1 /* d33e6828b0a1b0f2e49a78010bb0a19a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD651BD16014004D11E1 /* d33e6828b0a1b0f2e49a78010bb0a19a.jpg */; };
+		7E3AAD751BD16014004D11E1 /* f542686c3d5918d89ddfe37786170dca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD661BD16014004D11E1 /* f542686c3d5918d89ddfe37786170dca.jpg */; };
+		7E3AAD761BD16014004D11E1 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD671BD16014004D11E1 /* imgres.jpg */; };
+		7E3AAD771BD16014004D11E1 /* millenium_falcon_360 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD681BD16014004D11E1 /* millenium_falcon_360 copy.jpg */; };
+		7E3AAD781BD16014004D11E1 /* millenium_falcon_360.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD691BD16014004D11E1 /* millenium_falcon_360.png */; };
+		7E3AAD7B1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com 12-38-01-749.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD6C1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com 12-38-01-749.jpg */; };
+		7E3AAD7C1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD6D1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com.jpg */; };
+		7E3AAD7D1BD16014004D11E1 /* star_wars_x-640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD6E1BD16014004D11E1 /* star_wars_x-640x1136.jpg */; };
+		7E3AAD801BD16014004D11E1 /* vintage-star-wars-iphone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AAD711BD16014004D11E1 /* vintage-star-wars-iphone-wallpaper.jpg */; };
+		7E3AAD891BD17A7E004D11E1 /* GCDynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AAD881BD17A7E004D11E1 /* GCDynamicsViewController.m */; };
+		7EB755551BF12F58000E8B2D /* TransBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB755541BF12F58000E8B2D /* TransBlack.png */; };
+		7EB755591BF13194000E8B2D /* TransBlack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB755581BF13194000E8B2D /* TransBlack2.png */; };
+		7EB913061BF271790079D3AF /* EnterHolodex.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB913051BF271790079D3AF /* EnterHolodex.png */; };
+		7EB913081BF278CB0079D3AF /* DeathStar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EB913071BF278CB0079D3AF /* DeathStar.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E3AAC921BD0112D004D11E1 /* Holodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3AAC961BD0112D004D11E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E3AAC981BD0112D004D11E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E3AAC991BD0112D004D11E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E3AAC9B1BD0112D004D11E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E3AAC9C1BD0112D004D11E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E3AAC9F1BD0112D004D11E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E3AACA11BD0112D004D11E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3AACA41BD0112D004D11E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E3AACA61BD0112D004D11E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3AACAC1BD01CB5004D11E1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../Homework/TuneSearch/TuneSearch/Reachability.h; sourceTree = "<group>"; };
+		7E3AACAD1BD01CB5004D11E1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../Homework/TuneSearch/TuneSearch/Reachability.m; sourceTree = "<group>"; };
+		7E3AACB21BD02A8E004D11E1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7E3AACB31BD02A8E004D11E1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7E3AACBE1BD04960004D11E1 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		7E3AAD631BD16014004D11E1 /* 1187115.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1187115.png; sourceTree = "<group>"; };
+		7E3AAD641BD16014004D11E1 /* b8d19ca6bef404133378912bab9acf4a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b8d19ca6bef404133378912bab9acf4a.jpg; sourceTree = "<group>"; };
+		7E3AAD651BD16014004D11E1 /* d33e6828b0a1b0f2e49a78010bb0a19a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d33e6828b0a1b0f2e49a78010bb0a19a.jpg; sourceTree = "<group>"; };
+		7E3AAD661BD16014004D11E1 /* f542686c3d5918d89ddfe37786170dca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f542686c3d5918d89ddfe37786170dca.jpg; sourceTree = "<group>"; };
+		7E3AAD671BD16014004D11E1 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		7E3AAD681BD16014004D11E1 /* millenium_falcon_360 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "millenium_falcon_360 copy.jpg"; sourceTree = "<group>"; };
+		7E3AAD691BD16014004D11E1 /* millenium_falcon_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = millenium_falcon_360.png; sourceTree = "<group>"; };
+		7E3AAD6C1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com 12-38-01-749.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com 12-38-01-749.jpg"; sourceTree = "<group>"; };
+		7E3AAD6D1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com.jpg"; sourceTree = "<group>"; };
+		7E3AAD6E1BD16014004D11E1 /* star_wars_x-640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "star_wars_x-640x1136.jpg"; sourceTree = "<group>"; };
+		7E3AAD711BD16014004D11E1 /* vintage-star-wars-iphone-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vintage-star-wars-iphone-wallpaper.jpg"; sourceTree = "<group>"; };
+		7E3AAD871BD17A7E004D11E1 /* GCDynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDynamicsViewController.h; sourceTree = "<group>"; };
+		7E3AAD881BD17A7E004D11E1 /* GCDynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDynamicsViewController.m; sourceTree = "<group>"; };
+		7EB755541BF12F58000E8B2D /* TransBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TransBlack.png; sourceTree = "<group>"; };
+		7EB755581BF13194000E8B2D /* TransBlack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TransBlack2.png; sourceTree = "<group>"; };
+		7EB913051BF271790079D3AF /* EnterHolodex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnterHolodex.png; sourceTree = "<group>"; };
+		7EB913071BF278CB0079D3AF /* DeathStar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DeathStar.jpg; path = "../../../starWars Images/DeathStar.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3AAC8F1BD0112D004D11E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3AACBF1BD04960004D11E1 /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3AAC891BD0112D004D11E1 = {
+			isa = PBXGroup;
+			children = (
+				7E3AAD621BD16014004D11E1 /* starWars Images */,
+				7E3AACBE1BD04960004D11E1 /* SafariServices.framework */,
+				7E3AAC941BD0112D004D11E1 /* Holodex */,
+				7E3AAC931BD0112D004D11E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3AAC931BD0112D004D11E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3AAC921BD0112D004D11E1 /* Holodex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3AAC941BD0112D004D11E1 /* Holodex */ = {
+			isa = PBXGroup;
+			children = (
+				7E3AAC981BD0112D004D11E1 /* AppDelegate.h */,
+				7E3AAC991BD0112D004D11E1 /* AppDelegate.m */,
+				7E3AAC9B1BD0112D004D11E1 /* ViewController.h */,
+				7E3AAC9C1BD0112D004D11E1 /* ViewController.m */,
+				7E3AAD871BD17A7E004D11E1 /* GCDynamicsViewController.h */,
+				7E3AAD881BD17A7E004D11E1 /* GCDynamicsViewController.m */,
+				7E3AACAC1BD01CB5004D11E1 /* Reachability.h */,
+				7E3AACAD1BD01CB5004D11E1 /* Reachability.m */,
+				7E3AAC9E1BD0112D004D11E1 /* Main.storyboard */,
+				7EB913071BF278CB0079D3AF /* DeathStar.jpg */,
+				7E3AACB21BD02A8E004D11E1 /* DetailViewController.h */,
+				7E3AACB31BD02A8E004D11E1 /* DetailViewController.m */,
+				7E3AACA11BD0112D004D11E1 /* Assets.xcassets */,
+				7E3AACA31BD0112D004D11E1 /* LaunchScreen.storyboard */,
+				7E3AACA61BD0112D004D11E1 /* Info.plist */,
+				7E3AAC951BD0112D004D11E1 /* Supporting Files */,
+			);
+			path = Holodex;
+			sourceTree = "<group>";
+		};
+		7E3AAC951BD0112D004D11E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3AAC961BD0112D004D11E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E3AAD621BD16014004D11E1 /* starWars Images */ = {
+			isa = PBXGroup;
+			children = (
+				7EB755581BF13194000E8B2D /* TransBlack2.png */,
+				7EB755541BF12F58000E8B2D /* TransBlack.png */,
+				7EB913051BF271790079D3AF /* EnterHolodex.png */,
+				7E3AAD631BD16014004D11E1 /* 1187115.png */,
+				7E3AAD641BD16014004D11E1 /* b8d19ca6bef404133378912bab9acf4a.jpg */,
+				7E3AAD651BD16014004D11E1 /* d33e6828b0a1b0f2e49a78010bb0a19a.jpg */,
+				7E3AAD661BD16014004D11E1 /* f542686c3d5918d89ddfe37786170dca.jpg */,
+				7E3AAD671BD16014004D11E1 /* imgres.jpg */,
+				7E3AAD681BD16014004D11E1 /* millenium_falcon_360 copy.jpg */,
+				7E3AAD691BD16014004D11E1 /* millenium_falcon_360.png */,
+				7E3AAD6C1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com 12-38-01-749.jpg */,
+				7E3AAD6D1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com.jpg */,
+				7E3AAD6E1BD16014004D11E1 /* star_wars_x-640x1136.jpg */,
+				7E3AAD711BD16014004D11E1 /* vintage-star-wars-iphone-wallpaper.jpg */,
+			);
+			name = "starWars Images";
+			path = "../../starWars Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3AAC911BD0112D004D11E1 /* Holodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3AACA91BD0112D004D11E1 /* Build configuration list for PBXNativeTarget "Holodex" */;
+			buildPhases = (
+				7E3AAC8E1BD0112D004D11E1 /* Sources */,
+				7E3AAC8F1BD0112D004D11E1 /* Frameworks */,
+				7E3AAC901BD0112D004D11E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Holodex;
+			productName = Holodex;
+			productReference = 7E3AAC921BD0112D004D11E1 /* Holodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3AAC8A1BD0112D004D11E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cameron Westbury";
+				TargetAttributes = {
+					7E3AAC911BD0112D004D11E1 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = NYH99EU7H7;
+					};
+				};
+			};
+			buildConfigurationList = 7E3AAC8D1BD0112D004D11E1 /* Build configuration list for PBXProject "Holodex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3AAC891BD0112D004D11E1;
+			productRefGroup = 7E3AAC931BD0112D004D11E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3AAC911BD0112D004D11E1 /* Holodex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3AAC901BD0112D004D11E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3AAD761BD16014004D11E1 /* imgres.jpg in Resources */,
+				7E3AAD781BD16014004D11E1 /* millenium_falcon_360.png in Resources */,
+				7E3AACA51BD0112D004D11E1 /* LaunchScreen.storyboard in Resources */,
+				7E3AAD751BD16014004D11E1 /* f542686c3d5918d89ddfe37786170dca.jpg in Resources */,
+				7EB755591BF13194000E8B2D /* TransBlack2.png in Resources */,
+				7E3AACA21BD0112D004D11E1 /* Assets.xcassets in Resources */,
+				7EB913061BF271790079D3AF /* EnterHolodex.png in Resources */,
+				7E3AAD721BD16014004D11E1 /* 1187115.png in Resources */,
+				7E3AAD801BD16014004D11E1 /* vintage-star-wars-iphone-wallpaper.jpg in Resources */,
+				7EB755551BF12F58000E8B2D /* TransBlack.png in Resources */,
+				7E3AAD741BD16014004D11E1 /* d33e6828b0a1b0f2e49a78010bb0a19a.jpg in Resources */,
+				7E3AAD731BD16014004D11E1 /* b8d19ca6bef404133378912bab9acf4a.jpg in Resources */,
+				7E3AAD7D1BD16014004D11E1 /* star_wars_x-640x1136.jpg in Resources */,
+				7E3AAD771BD16014004D11E1 /* millenium_falcon_360 copy.jpg in Resources */,
+				7E3AAD7B1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com 12-38-01-749.jpg in Resources */,
+				7E3AACA01BD0112D004D11E1 /* Main.storyboard in Resources */,
+				7EB913081BF278CB0079D3AF /* DeathStar.jpg in Resources */,
+				7E3AAD7C1BD16014004D11E1 /* Star-Wars-Logo-iphone-5-wallpaper-ilikewallpaper_com.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3AAC8E1BD0112D004D11E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3AACB41BD02A8E004D11E1 /* DetailViewController.m in Sources */,
+				7E3AAC9D1BD0112D004D11E1 /* ViewController.m in Sources */,
+				7E3AAD891BD17A7E004D11E1 /* GCDynamicsViewController.m in Sources */,
+				7E3AAC9A1BD0112D004D11E1 /* AppDelegate.m in Sources */,
+				7E3AACAE1BD01CB5004D11E1 /* Reachability.m in Sources */,
+				7E3AAC971BD0112D004D11E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E3AAC9E1BD0112D004D11E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3AAC9F1BD0112D004D11E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3AACA31BD0112D004D11E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3AACA41BD0112D004D11E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3AACA71BD0112D004D11E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E3AACA81BD0112D004D11E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3AACAA1BD0112D004D11E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Holodex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppStart.Holodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7E3AACAB1BD0112D004D11E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Holodex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AppStart.Holodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3AAC8D1BD0112D004D11E1 /* Build configuration list for PBXProject "Holodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3AACA71BD0112D004D11E1 /* Debug */,
+				7E3AACA81BD0112D004D11E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3AACA91BD0112D004D11E1 /* Build configuration list for PBXNativeTarget "Holodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3AACAA1BD0112D004D11E1 /* Debug */,
+				7E3AACAB1BD0112D004D11E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3AAC8A1BD0112D004D11E1 /* Project object */;
+}
