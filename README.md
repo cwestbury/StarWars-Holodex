@@ -9,4 +9,4 @@ of characters to make room on his server for other projects. There should be a 4
 
 
 
-![StarWars-Holodex](http://i.imgur.com/mjRnyg4.png) ![StarWars-Holodex](http://i.imgur.com/FodCOmE.png)![StarWars-Holodex](http://i.imgur.com/nFDc2fV.png)![StarWars-Holodex](http://i.imgur.com/465jPLL.pngg)
+![StarWars-Holodex](http://i.imgur.com/mjRnyg4.png) ![StarWars-Holodex](http://i.imgur.com/FodCOmE.png) ![StarWars-Holodex](http://i.imgur.com/nFDc2fV.png) ![StarWars-Holodex](http://i.imgur.com/465jPLL.pngg)
