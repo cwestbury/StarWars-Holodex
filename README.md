@@ -3,3 +3,10 @@ This is was a group project between the iOS class and the Ruby Class  at the end
 of all the characters in star wars using Wookiepedia.com. The app worked well, but my Ruby partner deleted our database
 of characters to make room on his server for other projects. There should be a 4 characters left to search for 
 (Han Solo, Padme, Yoda, and Luke Skywalker).
+
+
+
+
+
+
+![StarWars-Holodex](http://i.imgur.com/mjRnyg4.png) ![StarWars-Holodex](http://i.imgur.com/FodCOmE.png)![StarWars-Holodex](http://i.imgur.com/nFDc2fV.png)![StarWars-Holodex](http://i.imgur.com/465jPLL.pngg)
